@@ -1,0 +1,43 @@
+body {
+  background-color: #ffffff; }
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+  white-space: normal; }
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto; }
+
+.clear {
+  clear: both; }
+
+/*-------------BEGIN HEADER-------------*/
+#headerTop {
+  height: 20px;
+  padding: 0 10px;
+  background-color: darkolivegreen; }
+  #headerTop div a {
+    color: yellow;
+    text-decoration: none; }
+    #headerTop div a:hover {
+      color: aliceblue; }
+
+#headerContent {
+  height: 111px;
+  padding: 0 10px; }
+
+#headerBottom {
+  height: 50px;
+  background-color: darkslategray; }
+
+/*-------------END HEADER-------------*/
+/*-------------BEGIN FOOTER-------------*/
+#footer {
+  background-color: mediumpurple; }
+
+/*-------------END FOOTER-------------*/
+
+/*# sourceMappingURL=styles.css.map */

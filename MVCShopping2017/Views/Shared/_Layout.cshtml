@@ -1,0 +1,42 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[@ViewBag.Title] - Shopping 2017</title>
+    @Styles.Render("~/Content/css")
+    @Styles.Render("~/Content/kendo")
+    @Scripts.Render("~/bundles/modernizr")
+
+</head>
+<body>
+    <header>
+        <div id="headerTop">
+            @Html.Partial("_LoginPartial")
+        </div>
+        <div class="clear"></div>
+        <div id="headerContent"></div>
+        <div class="clear"></div>
+        <div id="headerBottom" class="">
+            <div class="wrapper">
+                <!--menu-->
+            </div>
+        </div>
+    </header>
+    <div class="clear"></div>
+    <div class="wrapper">
+        @RenderBody()   
+    </div>
+    <div class="clear"></div>
+    <footer id="footer">
+        <div class="wrapper">
+            <p>&copy; @DateTime.Now.Year - Shopping Application</p>
+        </div>   
+    </footer>
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/kendo")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+<noembed>
