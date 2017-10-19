@@ -1,9 +1,9 @@
 ﻿//SetColor
-$primary: #ffffff;
-
+$background: #ffffff;
+$primary: darkgreen;
 
 body {
-    background-color: $primary;
+    background-color: $background;
 }
 
 /* Override the default bootstrap behavior where horizontal description lists 
